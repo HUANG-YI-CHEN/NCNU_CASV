@@ -1,0 +1,1 @@
+for /f %f IN ( 'dir /b /s *.bat *.htm *.html *.css *.js *.txt *.cs *.aspx *.svg *.cshtml' ) DO @unix2dos %f

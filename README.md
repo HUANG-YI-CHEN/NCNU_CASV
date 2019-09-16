@@ -7,11 +7,21 @@
 ## 系統需求
 * 作業系統 `Microsoft Windows 7, 8/8.1, 10, Server 2012`
 * 文書作業軟體 `Microsoft Office 2010, 2013, 2016, 2019`
+* 分散式版本控制軟體 [Git](https://git-scm.com/downloads)
 
-## 安裝套件
+## 安裝說明
+* 有下載 Git : 執行下列指令
 ```
-無安裝套件需求
+git clone https://github.com/HUANG-YI-CHEN/NCNU_CASV.git
 ```
+> 取得專案後，點擊 `NCNU_CASV.bat` 開始執行本程式進行驗證
+
+* 無下載 Git : 在 [NCNU_CASV](https://github.com/HUANG-YI-CHEN/NCNU_CASV) 專案點擊`clone or download`→`Dowload ZIP`
+> 解壓縮檔案，取得專案後，先點擊 `UNIXLF2WINCRLF.bat`
+>>點擊 `NCNU_CASV.bat` 開始執行本程式進行驗證
+
+## 問題
+在 Git 上傳檔案會發生 Windows CRLF 被轉成 UNIX LF 問題，[資料參考](https://kingofamani.gitbooks.io/git-teach/content/chapter_5/crlf_problem.html)。
 
 ## 註記
 `本程式僅供學術使用，用於方便認證暨大校園授權軟體，並非破解程式，請勿拿來非法散播`
